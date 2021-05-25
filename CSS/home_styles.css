@@ -1,0 +1,40 @@
+body {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+}
+/*-------------------------Main Cover-------------------------*/
+.container-cover {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.container-content {
+    width: 650px;
+    position: absolute;
+    text-align: center;
+}
+.container-cover__title {
+    font-size: 30px;
+    letter-spacing: 10px;
+    color: #FFFFFF;
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+.container-cover__button {
+    width: 110px;
+    height: 50px;
+    background-color: #48cfad;
+    outline: none;
+    border: 1px solid #FFFFFF;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.container-imgcover {
+    width: 100%;
+    height: 100%;
+}
+.container-imgcover__img {
+    width: 100%;
+}
